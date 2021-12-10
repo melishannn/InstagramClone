@@ -1,0 +1,40 @@
+.navbar{
+    height:54px;
+}
+.navbar-nav{
+    margin-left:500px;
+}
+.container-fluid {
+  
+    width:fit-content;
+}
+.nav-item i{
+    font-size: 1.5em;
+}
+.d-flex{
+    position:relative;
+    margin-left:5px;
+}
+.card-header{
+    float:right;
+}
+.clear{
+    clear:both;
+}
+.card{
+    width:20em;
+    margin-right:10em;
+}
+.card-header i {
+    font-size:1.5em;
+    float:left;
+   
+}
+.list-inline{
+    font-size:0.5rem;
+}
+.card-header a{
+    float:left;
+    color: black;
+    padding-left: 10px;
+}
