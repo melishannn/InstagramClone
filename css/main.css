@@ -33,8 +33,71 @@
 .list-inline{
     font-size:0.5rem;
 }
+.card{
+    margin-left:5;
+    margin-top:2;
+    background-color:white;
+}
 .card-header a{
     float:left;
     color: black;
     padding-left: 10px;
+}
+
+.col-md-4{
+    margin-top: 4;
+}
+hr{
+    margin-top: 0;
+}
+.middlearea ul{
+    font-size:15px;
+}
+/* !important kullanımı stil kısmındaki kod karmaşısından kurtulmamızı sağlar.
+spesifik olan style yazılarını dikkate almaz.meselea #middlearea height:600px;
+yazıldığı zaman !impotartant kullanıldğı için dikkate alınmaz.Daha spesifik olanı tanır ve kod
+karmaşsından kurtulunmuş olunur.*/
+.middlearea {
+    height:200px !important;
+  
+    
+    }
+.img1{
+    width: 5.5em;
+    height:5.5em;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: blue;
+    /* commented for demo
+    float: left;
+    margin-left: 125px;
+    margin-top: 20px;
+    */
+    
+    /*for demo*/
+    font-size: 10px;
+    display:inline-block;
+    vertical-align:middle;
+    background-color: #F80;
+    border: 3px solid red;
+    border-radius: 18px;
+    box-shadow: 0 0 2px red;
+    height: 30px;
+    width: 30px;
+}
+.img1 img{
+    width:100%;
+}
+.img1 a{
+    display: inline-block;
+    margin-right: 60px;
+    width: 120px;
+}
+
+.flow{
+    margin-left:15em;
+    margin-top:1.5em;
+}
+.flow input{
+    width:80%;
 }
