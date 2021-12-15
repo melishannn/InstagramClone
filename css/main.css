@@ -1,5 +1,8 @@
-.navbar{
+
+nav{
     height:54px;
+  
+   
 }
 .navbar-nav{
     margin-left:500px;
@@ -21,9 +24,23 @@
 .clear{
     clear:both;
 }
+
+.fixed {
+    position: fixed;
+    top:0;
+    margin-left:60%;
+}   
+.story ul{
+    width:30%;
+}
+  
 .card{
-    width:20em;
-    margin-right:10em;
+    width:20rem;
+    height:auto;
+    margin-right:5em;
+    margin-top:0.5em;
+    position: relative;
+   
 }
 .card-header i {
     font-size:1.5em;
@@ -52,22 +69,22 @@ hr{
 }
 .middlearea ul{
     font-size:15px;
+    margin-left: 2px;
 }
 /* !important kullanımı stil kısmındaki kod karmaşısından kurtulmamızı sağlar.
 spesifik olan style yazılarını dikkate almaz.meselea #middlearea height:600px;
 yazıldığı zaman !impotartant kullanıldğı için dikkate alınmaz.Daha spesifik olanı tanır ve kod
 karmaşsından kurtulunmuş olunur.*/
 .middlearea {
-    height:200px !important;
-  
-    
+    height:700px !important; 
+    width:50%;
+    border: black;
+
     }
 .img1{
-    width: 5.5em;
-    height:5.5em;
+ 
     border-radius: 50%;
     overflow: hidden;
-    background-color: blue;
     /* commented for demo
     float: left;
     margin-left: 125px;
@@ -84,7 +101,9 @@ karmaşsından kurtulunmuş olunur.*/
     box-shadow: 0 0 2px red;
     height: 30px;
     width: 30px;
+  
 }
+
 .img1 img{
     width:100%;
 }
@@ -94,10 +113,26 @@ karmaşsından kurtulunmuş olunur.*/
     width: 120px;
 }
 
-.flow{
-    margin-left:15em;
-    margin-top:1.5em;
+
+.row{
+    margin-left:15%;
 }
-.flow input{
-    width:80%;
+.row ul{
+    font-size: 15px;
+  
+    margin-left:3%;
+}
+.flow{
+    margin-left:5%;
+    margin-top:5px;
+}
+.flow ul{
+   margin-left:10%;
+   margin-top:0.5em;
+}
+.form-control{
+    width:70%;
+}
+.list-inline-item button{
+    color:blue;
 }
